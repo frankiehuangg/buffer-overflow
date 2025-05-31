@@ -1,0 +1,38 @@
+name: "Reamstroha"
+
+category: extra
+description: |-
+  a hidden stage??? bet you didn't see this coming! now where's the flag...
+
+  ![reamstroha](https://i.giphy.com/MCjaQDMQxZTLBE8W7X.webp)
+
+  Author: **msfir**
+
+attribution: msfir
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 75
+  minimum: 200
+
+connection_info: nc sisterlab.id 42071
+
+flags:
+  - Orkom{y0u_4r3_ma5t3r_0f_sh3llc0de!_91239fded0d7d00e1ee3ab650d49005b}
+
+files:
+  - dist/main
+
+requirements:
+  - "Balterie"
+  - "Catastravia"
+  - "Daosdorg"
+  - "Judradjim"
+  - "Medrozobalt"
+  - "Nephtear"
+
+state: hidden
+
+version: "0.1"

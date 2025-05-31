@@ -1,0 +1,6 @@
+services:
+  catastravia:
+    build: .
+    ports: 
+      - "42002:1337"
+    restart: on-failure

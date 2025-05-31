@@ -1,0 +1,38 @@
+name: "Waldgose"
+
+category: extra
+description: |-
+  i've always wanted to place an exit sign above my bathroom door, but apparently many people says that i'm weird... personally, i call it interior design!
+
+  ![waldgose](https://i.giphy.com/MCjaQDMQxZTLBE8W7X.webp)
+
+  Author: **yellow**
+
+attribution: yellow
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 75
+  minimum: 200
+
+connection_info: nc sisterlab.id 42094
+
+flags:
+  - Orkom{ex1t_s19n_on_th3_b4thr00m_door!_461e010185f2fee1a52d49818fbea743}
+
+files:
+  - dist/main
+
+requirements:
+  - "Balterie"
+  - "Catastravia"
+  - "Daosdorg"
+  - "Judradjim"
+  - "Medrozobalt"
+  - "Nephtear"
+
+state: hidden
+
+version: "0.1"

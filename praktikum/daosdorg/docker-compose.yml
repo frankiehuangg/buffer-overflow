@@ -1,0 +1,6 @@
+services:
+  daosdorg:
+    build: .
+    ports: 
+      - "42003:1337"
+    restart: on-failure

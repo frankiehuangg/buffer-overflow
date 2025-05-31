@@ -1,0 +1,30 @@
+name: "Balterie"
+
+category: core
+description: |-
+  just started learning programming and built a simple calculator app!!!
+
+  ![balterie](https://i.giphy.com/1eEH7dQ2xwN95RwGQf.webp)
+
+  Author: **yellow**
+
+attribution: yellow
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 75
+  minimum: 200
+
+connection_info: nc sisterlab.id 42001
+
+flags:
+  - Orkom{s1mpl3_c4lculat0r_app_br0k3n!?!?!?_3279692f7129467469c85663c469cc22}
+
+files:
+  - dist/client
+
+state: hidden
+
+version: "0.1"

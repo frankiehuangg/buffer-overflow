@@ -1,0 +1,30 @@
+name: "Medrozobalt"
+
+category: core
+description: |-
+  did you know that "a nut for a jar of tuna" is spelled the same backwards?
+
+  ![medrozobalt](https://i.giphy.com/XpqAFE6t3uC8nyMPUA.webp)
+
+  Author: **yellow**
+
+attribution: yellow
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 75
+  minimum: 200
+
+connection_info: nc sisterlab.id 42005
+
+flags:
+  - Orkom{a_nUt_f0r_4_j4r_0f_tUna_e01cd03a227dc7933f4a7943b789563b}
+
+files:
+  - dist/client
+
+state: hidden
+
+version: "0.1"

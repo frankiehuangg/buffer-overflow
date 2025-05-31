@@ -1,0 +1,30 @@
+name: "Nephtear"
+
+category: core
+description: |-
+  me when i saw another tech bros promoting their so-called "blockchain-based solution"
+
+  ![nephtear](https://i.giphy.com/pjwHYT6a3MdggZlvrk.webp)
+
+  Author: **yellow**
+
+attribution: yellow
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 75
+  minimum: 200
+
+connection_info: nc sisterlab.id 42006
+
+flags:
+  - Orkom{8LocKCh41n_i5_4n0tH3r_buzzw0rD_1_hat3!!!_93b0181c376f6fdf7833e6d0f6cbf2de}
+
+files:
+  - dist/client
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,6 @@
+services:
+  reelseiden:
+    build: .
+    ports: 
+      - "42042:1337"
+    restart: on-failure

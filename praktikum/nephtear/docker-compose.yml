@@ -1,0 +1,6 @@
+services:
+  nephtear:
+    build: .
+    ports: 
+      - "42006:1337"
+    restart: on-failure

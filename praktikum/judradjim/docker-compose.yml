@@ -1,0 +1,6 @@
+services:
+  judradjim:
+    build: .
+    ports: 
+      - "42004:1337"
+    restart: on-failure

@@ -1,0 +1,6 @@
+services:
+  medrozobalt:
+    build: .
+    ports: 
+      - "42005:1337"
+    restart: on-failure

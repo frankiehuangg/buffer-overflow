@@ -1,0 +1,27 @@
+name: "Aleph"
+
+category: baby
+description: |-
+  let's learn what a "buffer overflow" is!
+
+  ![aleph](https://i.giphy.com/eoz1fI1Tx4bnecWnrv.webp)
+
+  Author: **yellow**
+
+attribution: yellow
+
+value: 100
+type: standard
+
+connection_info: nc sisterlab.id 42000
+
+flags:
+  - Orkom{b4by's_f1r5t_b0ff_eb7def3975bf0bfa502e81d7302021de}
+
+files:
+  - src/client.c
+  - dist/client
+
+state: hidden
+
+version: "0.1"

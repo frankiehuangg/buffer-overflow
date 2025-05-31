@@ -1,0 +1,6 @@
+services:
+  zoltraak:
+    build: .
+    ports: 
+      - "42069:1337"
+    restart: on-failure

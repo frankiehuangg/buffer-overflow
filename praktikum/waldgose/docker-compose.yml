@@ -1,0 +1,6 @@
+services:
+  waldgose:
+    build: .
+    ports: 
+      - "42094:1337"
+    restart: on-failure

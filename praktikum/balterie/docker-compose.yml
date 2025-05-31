@@ -1,0 +1,6 @@
+services:
+  balterie:
+    build: .
+    ports: 
+      - "42001:1337"
+    restart: on-failure

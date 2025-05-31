@@ -1,0 +1,30 @@
+name: "Catastravia"
+
+category: core
+description: |-
+  johann procrastinated too hard and ended up vibe-coding his way to complete the assignment
+
+  ![catastravia](https://i.giphy.com/U8GzqqgCahGDiXJuxE.webp)
+
+  Author: **yellow**
+
+attribution: yellow
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 75
+  minimum: 200
+
+connection_info: nc sisterlab.id 42002
+
+flags:
+  - Orkom{8uzzw0rD_buZZwORd_BuzZwOrD_1_fCK1n9_h4tE_a1!!!_25007951a2b6d916ea18d2a643d49c29}
+
+files:
+  - dist/client
+
+state: hidden
+
+version: "0.1"

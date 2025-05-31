@@ -1,0 +1,25 @@
+name: ""
+
+category: core
+description: |-
+
+attribution: yellow
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 75
+  minimum: 200
+
+connection_info: nc sisterlab.id 4200x
+
+flags:
+  - Orkom{}
+
+files:
+  - dist/client
+
+state: hidden
+
+version: "0.1"

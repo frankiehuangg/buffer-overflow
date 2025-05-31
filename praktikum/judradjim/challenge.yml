@@ -1,0 +1,30 @@
+name: "Judradjim"
+
+category: core
+description: |-
+  just found a simple yet foolproof way to protect my program! now you can't hack it anymore hahaha!!!
+
+  ![judradjim](https://i.giphy.com/fiq3wWeSTd7UqKMM9O.webp)
+
+  Author: **yellow**
+
+attribution: yellow
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 75
+  minimum: 200
+
+connection_info: nc sisterlab.id 42004
+
+flags:
+  - Orkom{wh0_tH3_h31L_c0deS_liK3_thaT???_1f773a748f102e217e7589006ab24797}
+
+files:
+  - dist/client
+
+state: hidden
+
+version: "0.1"

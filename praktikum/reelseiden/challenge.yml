@@ -1,0 +1,38 @@
+name: "Reelseiden"
+
+category: extra
+description: |-
+  this program is so confusing... who tf codes like this!? (it's me, i code like this 😔)
+
+  ![reelseiden](https://i.giphy.com/YmPd8l8nHwSjroLUwW.webp)
+
+  Author: **yellow**
+
+attribution: yellow
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 75
+  minimum: 200
+
+connection_info: nc sisterlab.id 42042
+
+flags:
+  - Orkom{d0nt_forg3t_t0_ch3ck_the_ne94t1ve5_too!_b6ea03e2d3580730351d6ede26a80613}
+
+files:
+  - dist/main
+
+requirements:
+  - "Balterie"
+  - "Catastravia"
+  - "Daosdorg"
+  - "Judradjim"
+  - "Medrozobalt"
+  - "Nephtear"
+
+state: hidden
+
+version: "0.1"

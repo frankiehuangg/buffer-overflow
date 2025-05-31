@@ -1,0 +1,6 @@
+services:
+  reamstroha:
+    build: .
+    ports: 
+      - "42071:1337"
+    restart: on-failure

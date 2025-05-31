@@ -1,0 +1,30 @@
+name: "Daosdorg"
+
+category: core
+description: |-
+  and what's the message for the next person?
+
+  ![daosdorg](https://i.giphy.com/5QKnOASbDsHshTqhz4.webp)
+
+  Author: **yellow**
+
+attribution: yellow
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 75
+  minimum: 200
+
+connection_info: nc sisterlab.id 42003
+
+flags:
+  - Orkom{lvl_5_gy4tt_r1zz_L1vVy_Dun3_r1zzIn9_uP_b48Y_9R0nk_87cb0a8ba82230d8805478f506df3aa5}
+
+files:
+  - dist/client
+
+state: hidden
+
+version: "0.1"

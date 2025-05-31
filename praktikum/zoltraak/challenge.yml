@@ -1,0 +1,37 @@
+name: "Zoltraak"
+
+category: boss
+description: |-
+  this is it... this is the final chall!!! are you good enough to pwn this last chall?
+
+  ![zoltraak](https://i.giphy.com/7nfvuZXByzkSEuaH1O.webp)
+
+  Author: **msfir**
+
+attribution: msfir
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 75
+  minimum: 200
+
+connection_info: nc sisterlab.id 42069
+
+flags:
+  - Orkom{con9r4tulat1on5_on_pwn1n9_4ll_th3_ch4lls!!!c0ntact_me_at_l1n3_with_id_"tytyd_kadal"!!!_6ffb77efae3cb19a4e3abbe8f2daf859}
+
+files:
+  - dist/client
+  - dist/ld-linux-x86-64.so.2
+  - dist/libc.so.6
+
+requirements:
+  - "Reamstroha"
+  - "Reelseiden"
+  - "Waldgose"
+
+state: hidden
+
+version: "0.1"

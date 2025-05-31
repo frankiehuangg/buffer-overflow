@@ -1,0 +1,6 @@
+services:
+  aleph:
+    build: .
+    ports: 
+      - "42000:1337"
+    restart: on-failure
